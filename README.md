@@ -1,1 +1,3 @@
-# Projekt-07-sluchatka
+# projekt-7-sluchatka
+
+Připravte stránku dle vzoru.
