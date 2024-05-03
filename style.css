@@ -17,3 +17,227 @@ font-weight: 700;
 /* -------------------------------------------------- */
 
 
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+/*
+Písmo pro běžný text:
+font-family: 'Open Sans', sans-serif;
+font-size: 15px+
+line-height: 1.5;
+
+Písmo pro menší nadpisy (kromě velkého h1):
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+
+
+Modra barva tlačítka:
+background-color: #3498db;
+
+Tlačítko při najetí myší:
+background-color: #2b80b9;
+*/
+
+/* -------------------------------------------------- */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5; 
+    padding: 0;
+	margin: 0;
+}
+
+.wrap {
+    max-width: 1140px;
+    padding: 20px;
+    margin: auto;
+}
+
+.uvod {
+    background-color: #f5f5f5;	
+}
+
+.hlavicka {
+    align-items: baseline;
+    display: flex;
+	justify-content: space-between;
+    margin:  0 0 50px 0;
+}
+
+
+.hlavicka-vpravo {
+    align-items: baseline;
+    display: flex;
+    
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu li {
+    display: inline-block;
+   }
+   
+ .menu a {
+     display: block;
+     padding: 10px;
+     text-transform: uppercase;
+     color: #959595;
+     font-family: 'Rubik', sans-serif;
+     text-decoration: none;
+     
+   }
+  
+.tlacitko {
+    border-radius: 5px;
+    display: inline-block;
+	padding: 10px 15px;
+    font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+    
+}
+.tlacitko-velke {
+	font-size: 16px;
+    font-weight: 600;
+	padding: 15px 15px;
+}
+.tlacitko-primarni {
+	color: white;
+	background-color: #3498db;
+	border: 1px solid #3498db;
+}
+
+.tlacitko-sekundarni {
+    background: transparent;
+	color: #0f0f0f;
+	border: 1px solid #0f0f0f;
+}
+
+.banner {
+	display: flex;
+	min-height: 600px;
+}
+
+.banner-text {
+    margin-right: -200px;
+	max-width: 420px;
+	padding-top: 40px;
+}
+
+.upoutavka {
+    color: #a5a5a5;
+	margin: 30px 0;
+	font-size: 18px;
+}
+
+.banner h1 {
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+.minitext {
+    font-family: 'Rubik', sans-serif ;
+	font-size: 13px;
+}
+
+.sekce {
+	padding: 50px 0;
+}
+
+.sekce-cerna {
+	background-color: #252525;
+	color: white;
+}
+
+.sekce-bila {
+	background-color: white;
+	
+
+.sekce-seda {
+	background-color: #e6e3e3;
+}
+
+.vlastnosti {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: -30px;
+}
+.vlastnost {
+	flex: 1 1 calc((100% / 2) - 30px);
+	min-height: 110px;
+	padding: 30px 30px 30px 110px;
+	margin-bottom: 30px;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	background-size: 50px 50px;
+	background-position: 30px 30px;
+	background-repeat: no-repeat;
+}
+.vlastnost:nth-child(2n+1) {
+	margin-right: 30px;
+}
+
+.vlastnost a {
+	font-size: 13px;
+}
+
+.vlastnost h2 {
+	margin: 0 0 10px 0;
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.vlastnost p {
+	margin: 10px 0 20px 0;
+    color: #666666;
+}
+
+.ikona-srdce {
+	background-image: url('images/srdce.svg');
+}
+.ikona-kufrik {
+	background-image: url('images/kufrik.svg');
+}
+.ikona-slunce {
+	background-image: url('images/slunce.svg');
+}
+.ikona-zvuk {
+	background-image: url('images/zvuk.svg');
+}
+}
+
+.paticka {
+	justify-content: space-between;
+	display: flex;
+}
+
+.paticka-menu a {
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+.paticka-menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.paticka-menu li {
+	margin-right: 30px;
+}
+
+.copyright {
+	color: #959595;
+	margin-top: 10px;
+	font-size: 13px;
+}
